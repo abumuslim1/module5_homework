@@ -1,6 +1,15 @@
 let n = +prompt('Введите число', '');
 
-if (isNaN( n )) {
+let v = Number(n);
+
+if (typeof v == 'number') {
+    alert('Число!');
+
+} else {
+    alert('НЕ чилсо!');
+}
+
+if (isNaN( v )) {
     alert( 'Введите число!' );
 } else {
     alert( 'Верно!' );
@@ -11,4 +20,7 @@ if (n % 2) {
 } else {
     console.log("Чет");
 }
+
+
+
 
