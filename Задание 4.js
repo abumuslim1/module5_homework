@@ -4,4 +4,4 @@ function getRandomInt(max) {
 
 let p = getRandomInt;
 
-console.log(getRandomInt(100));
+console.log(p(100));
