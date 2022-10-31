@@ -10,17 +10,13 @@ if (typeof v == 'number') {
 }
 
 if (isNaN( v )) {
-    alert( 'Введите число!' );
+    alert( 'Упс, кажется вы ошиблись' );
 } else {
     alert( 'Верно!' );
 }
 
-if (n % 2) {
+if (v % 2) {
     console.log("Нечет");
 } else {
     console.log("Чет");
 }
-
-
-
-
